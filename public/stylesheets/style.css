@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  background-color: hsl(0, 0%, 18%);
+}
+
+body {
+  padding: 20px;
+  font-size: 20px 
+}
+
+.ctr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px auto;
+}
+
+a {
+  color: hsl(27, 90%, 49%);
+  text-decoration: none;
+  font-size: 22px;
+}
+
+a:hover {
+  color: hsl(32, 100%, 50%);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 50px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+table {
+  width: 600px;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 2px solid #000000;
+  padding: 10px;
+  color: #bdbcbc;
+  text-align: center;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: hsl(27, 90%, 49%);
+  border-radius: 10%;
+  color: black;
+}
+
+form {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10%;
+  padding: 30px;
+  width: 500px;
+  background-color: hsl(0, 0%, 18%);
+  display: flex;
+  flex-direction: column;
+  color: #bdbcbc;
+  text-align: center;
+}
+
+select,
+input {
+  padding: 10px;
+  display: block;
+  width: 100%;
+  color: #bdbcbc;
+  font-family: 'Times-New-Roman';
+}
+
+input[type='datetime-local'] {
+  color: #bdbcbc;
+}
+
+input[type="submit"] {
+  display: block;
+  background-color: hsl(27, 90%, 49%);
+  color: #000000;
+  font-size: 20px;
+  border: none;
+  border-radius: 10%;
+  margin-top: 20px;
+  padding: 15px;
+  font-family: 'Times-New-Roman';
+}
+
+input[type="submit"]:hover {
+  background-color: hsl(32, 100%, 50%);
+}
+
+.ticket-button {
+  background-color: hsl(27, 90%, 49%);
+  width: 250px;
+  height: 40px;
+  border-style: none;
+  border-radius: 10%;
+  font-size: 20px;
+  font-family: 'Times-New-Roman';
+}
+
+.ticket-button:hover {
+  background-color: hsl(32, 100%, 50%);
+}
